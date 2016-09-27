@@ -16,10 +16,9 @@ main()
 {
 
     int n,r;
-    printf("Enter  n a to find ncr");
-    scanf("%d",&n);
-    printf("Enter r to find ncr");
-    scanf("%d",&r);
+    printf("Enter  n and r a to find ncr\n");
+    scanf("%d%d",&n,&r);
+
 
     int ncr=0;
     ncr = fact(n)/((fact(n-r))*fact(r));
