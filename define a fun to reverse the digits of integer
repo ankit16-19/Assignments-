@@ -1,0 +1,34 @@
+//define a fun to reverse the digits of integer
+#include<stdio.h>
+#include<math.h>
+int revint(int p)
+
+{
+    int z,u;
+    int v = p;
+    for(z=1;p>0;z++)
+    {
+        int x;
+        x = p%10;
+        p = p/10;
+    }
+    int y = z-1;
+    int o=0,i;
+
+    for(;y>0;)
+    {    o += v%10;
+    v = v/10;
+     o = o*pow(10,1);
+    y--;
+    }
+    return o/10;
+}
+void main()
+{
+    int q;
+    printf("Enter the integer to revers  its digits.\n");
+    scanf("%d",&q);
+    revint(q);
+    printf("%d",revint(q));
+
+}
