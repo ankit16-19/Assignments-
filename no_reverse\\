@@ -1,0 +1,21 @@
+#include<stdio.h>
+int rever(int k)
+{
+int r,sum=0;
+while(k>0)
+{
+r=k%10;
+sum+=r;
+sum*=10;
+k/=10;
+}
+sum/=10;
+return sum;
+}
+void main()
+{
+int n,rev;
+scanf("%d",&n);
+rev=rever(n);
+printf("%d",rev);
+}
