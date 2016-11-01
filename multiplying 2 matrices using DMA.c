@@ -1,6 +1,6 @@
 
-oye!!!!
-not saving the values of matrix 1 and 2 skipping the for loop and exiting the programme
+//oye!!!!
+//not saving the values of matrix 1 and 2 skipping the for loop and exiting the programme
 
 
 //multiplying 2 matrices using D.M.A
